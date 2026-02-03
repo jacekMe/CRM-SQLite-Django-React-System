@@ -1,0 +1,49 @@
+============================================================
+SYSTEM CRM "FIRMA X" - INSTRUKCJA URUCHOMIENIA (LINUX/macOS)
+============================================================
+
+Wymagania wstępne:
+1. Python 3 (zazwyczaj preinstalowany, sprawdź: python3 --version)
+2. Node.js (wersja LTS)
+
+------------------------------------------------------------
+CZĘŚĆ 1: URUCHOMIENIA SERWERA (BACKEND)
+------------------------------------------------------------
+1. Otwórz terminal w folderze 'backend'.
+2. Stwórz wirtualne środowisko:
+   python3 -m venv venv
+3. Aktywuj środowisko:
+   source venv/bin/activate
+4. Zainstaluj biblioteki:
+   pip install -r requirements.txt
+5. Uruchom serwer:
+   python manage.py runserver
+   
+6. Jeśli zobaczysz komunikat "Starting development server at http://127.0.0.1:8000/", backend działa.
+
+            ------------------------------------
+            |                                  |
+            |   !!! NIE ZAMYKAJ TEGO OKNA !!!  |
+            |                                  |
+            ------------------------------------
+
+------------------------------------------------------------
+CZĘŚĆ 2: URUCHOMIENIE APLIKACJI (FRONTEND)
+------------------------------------------------------------
+1. Otwórz nowy terminal w folderze 'frontend'.
+2. Zainstaluj paczki:
+   npm install
+3. Uruchom aplikację:
+   npm run dev
+
+
+------------------------------------------------------------
+DANE LOGOWANIA
+------------------------------------------------------------
+Szef (pełne uprawnienia):
+Login: jan
+Hasło: pass123
+
+Przedstawiciel (ograniczone uprawnienia):
+Login: adam
+Hasło: pass123

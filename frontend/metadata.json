@@ -1,0 +1,8 @@
+{
+  "name": "Firma X CRM",
+  "description": "A streamlined CRM system for Firma X to manage organic produce distribution, tracking client interactions, price monitoring, and sales representative performance.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
