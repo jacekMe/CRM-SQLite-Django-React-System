@@ -1,0 +1,50 @@
+================================================================
+SYSTEM CRM "FIRMA X" - INSTRUKCJA URUCHOMIENIA (WINDOWS)
+================================================================
+
+Wymagania wstępne:
+Aby uruchomić projekt, na komputerze muszą być zainstalowane dwa darmowe narzędzia:
+1. Python (do pobrania z: python.org) - podczas instalacji zaznacz "Add Python to PATH"!
+2. Node.js (do pobrania z: nodejs.org) - wersja LTS.
+
+----------------------------------------------------------------
+CZĘŚĆ 1: URUCHOMIENIE SERWERA (BACKEND)
+----------------------------------------------------------------
+1. Wejdź do folderu 'backend'.
+2. Kliknij w pasku adresu folderu, wpisz 'cmd' i naciśnij Enter (otworzy się czarna konsola).
+3. Wpisz poniższe komendy (zatwierdzając Enterem):
+
+   py -m venv venv
+   .\venv\Scripts\activate
+   pip install -r requirements.txt
+   python manage.py runserver
+
+4. Jeśli zobaczysz komunikat "Starting development server at http://127.0.0.1:8000/", backend działa.
+            ------------------------------------
+            |                                  |
+            |   !!! NIE ZAMYKAJ TEGO OKNA !!!  |
+            |                                  |
+            ------------------------------------
+----------------------------------------------------------------
+CZĘŚĆ 2: URUCHOMIENIE APLIKACJI (FRONTEND)
+----------------------------------------------------------------
+1. Wejdź do folderu 'frontend'.
+2. Ponownie otwórz konsolę (kliknij w pasek adresu > wpisz 'cmd' > Enter).
+3. Wpisz komendy:
+
+   npm install
+   npm run dev
+
+4. Po chwili pojawi się adres (np. http://localhost:5173).
+5. Otwórz ten adres w przeglądarce.
+
+----------------------------------------------------------------
+DANE LOGOWANIA
+----------------------------------------------------------------
+Szef (pełne uprawnienia):
+Login: jan
+Hasło: pass123
+
+Przedstawiciel (ograniczone uprawnienia):
+Login: adam
+Hasło: pass123
