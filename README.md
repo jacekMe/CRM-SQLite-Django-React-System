@@ -11,7 +11,8 @@ Full-stackowy system CRM stworzony w celu usprawnienia zarządzania relacjami z 
 
 ## ✨ Kluczowe funkcjonalności
 * **Zarządzanie klientami:** Pełny moduł CRUD (tworzenie, odczyt, aktualizacja, usuwanie).
-* **System ról:** * **Szef:** Pełny dostęp do danych i zarządzania użytkownikami.
+* **System ról:**
+  * **Szef:** Pełny dostęp do danych i zarządzania użytkownikami.
   * **Przedstawiciel:** Ograniczony dostęp, skupiony na operacjach sprzedażowych.
 * **Bezpieczeństwo:** Autoryzacja i uwierzytelnianie użytkowników.
 
